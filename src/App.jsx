@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Students from "./pages/Students.jsx";
+import Students from "./Pages/Students.jsx";
 
 function App() {
   return (

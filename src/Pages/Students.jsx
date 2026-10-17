@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 
-import Sidebar from "../components/Sidebar.jsx";
-import DashboardHeader from "../components/DashboardHeader";
-import StudentStats from "../components/StudentStats";
-import StudentList from "../components/StudentList";
-import StudentForm from "../components/StudentForm";
+import Sidebar from "../Components/Sidebar.jsx";
+import DashboardHeader from "../Components/DashboardHeader";
+import StudentStats from "../Components/StudentStats";
+import StudentList from "../Components/StudentList";
+import StudentForm from "../Components/StudentForm";
 
 import { initialStudents } from "../data/students.js";
 const STORAGE_KEY = "campusly-students";
